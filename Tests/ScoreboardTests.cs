@@ -12,7 +12,7 @@ public class ScoreboardTest : PageTest
     protected ScoreboardPage scoreboardPage;
 
     [Test]
-    public async Task ShouldHaveTheCorrectSlogan()
+    public async Task ShouldBeAbleToAddOneToHomeScore()
     {
         scoreboardPage = new ScoreboardPage(Page);
         var homeScore = Page.Locator("#home-score");
